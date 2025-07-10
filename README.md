@@ -38,6 +38,7 @@ Integrantes
 
 
 De la Puente Rizo Patrón, Rodrigo  – 202410045 (Implementación del modelo y pruebas)
+
 Paucar Barrios, Miguel Luis – 202410276 (Documentación y responsable de investigación teórica)
 
 3. Requisitos e instalación
@@ -169,11 +170,11 @@ Para cambiar los parámetros del entrenamiento, se pueden editar los valores de 
 
 Demo del proyecto:
 
-demoProgra3.mp4
+https://drive.google.com/file/d/1fqRw8XEEWMDnLs4SZF5vd3YAT8YNZqcO/view
 
 Demo del código del proyecto:
 
-Pong AI - Demo Código.mp4
+https://drive.google.com/file/d/135XWxlW81_G_e4hfZrfN42Em7J7G1B0j/view
 
 
 7. Análisis del rendimiento
