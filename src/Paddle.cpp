@@ -4,7 +4,7 @@
 
 #include "Paddle.h"
 
-Paddle::Paddle(float x, float y, float width, float height, float speed)
+Paddle::Paddle(float x, float y, float speed, float width, float height)
     : x(x), y(y), width(width), height(height), speed(speed), dy(0.0f) {}
 
 float Paddle::get_height() const {return height;}
@@ -31,4 +31,12 @@ void Paddle::render(SDL_Renderer* renderer) {
 
 SDL_FRect Paddle::getRect() const {
     return SDL_FRect{ x, y, width, height };
+}
+
+void Paddle::setSpeed(float newSpeed) {
+    speed = newSpeed;
+}
+
+float Paddle::getSpeed() const {
+    return speed;
 }

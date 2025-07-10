@@ -19,8 +19,9 @@ void Ball::update(float deltaTime) {
     xprev = x; yprev = y;
     x += dx * speed * deltaTime;
     y += dy * speed * deltaTime;
+    if (y <= 0) {y = 0; speed *= 1.05f;}
+    else if (y + h >= 600) {y = 600 - h; speed *= 1.05f;}
 }
-
 
 void Ball::reset() {
     x = 395.0f; y = 295.0f;

@@ -12,8 +12,9 @@ int main() {
     serializer loader;
     loader.load(network, "data/model.dat");
     auto& layers = network.get_layers();
-    Paddle leftPaddle(20, 250);
-    Paddle rightPaddle(780, 250);
+    float padleSpeed = 300.0f;
+    Paddle leftPaddle(20, 250, padleSpeed);
+    Paddle rightPaddle(780, 250, padleSpeed);
     Ball ball(395.0f, 295.0f, 300.0f);
 
     std::cout << "  ____   ___   _   _   ____        _    ___       \n";
